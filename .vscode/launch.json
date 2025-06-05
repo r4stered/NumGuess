@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:NumGuess}",
+            "name": "Debug NumGuess",
+            "program": "${workspaceFolder:NumGuess}/.build/debug/NumGuess",
+            "preLaunchTask": "swift: Build Debug NumGuess"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:NumGuess}",
+            "name": "Release NumGuess",
+            "program": "${workspaceFolder:NumGuess}/.build/release/NumGuess",
+            "preLaunchTask": "swift: Build Release NumGuess"
+        }
+    ]
+}
